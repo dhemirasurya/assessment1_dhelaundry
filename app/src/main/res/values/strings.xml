@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">Dhe Laundry</string>
+    <string name="laundry_intro">Masukkan data sesuai dengan barang-barang yang akan anda laundry. Pisahkan barang House Holds dengan barang Daily Kiloan yang akan ditimbang.</string>
+    <string name="user_name">Nama Anda</string>
+    <string name="daily_kg">Jumlah Daily Kiloan</string>
+    <string name="house_holds">Barang House Holds</string>
+    <string name="bed_cover">Bed Cover</string>
+    <string name="sarung_bantal">Sarung Bantal</string>
+    <string name="bantal_guling">Bantal/ Guling</string>
+    <string name="selimut">Selimut</string>
+    <string name="seprai">Seprai</string>
+    <string name="handuk">Handuk</string>
+    <string name="karpet">Karpet</string>
+    <string name="sepatu">Sepatu</string>
+    <string name="boneka">Boneka</string>
+    <string name="pelayanan_dailykg">Pilihan Jasa</string>
+    <string name="pilihan1">Reguler (3 Hari) Rp.6.000,- /kg</string>
+    <string name="pilihan2">Express (6 Jam) Rp.10.000,- /kg</string>
+    <string name="pilihan3">Quick (4 Jam) Rp.15.000,- /kg</string>
 </resources>
