@@ -22,12 +22,12 @@ class MainActivity : AppCompatActivity() {
     }
     private fun hitungDheLaundry() {
         //Log.d("MainActivity", "Tombol diklik!")
-        val pengguna = binding.userEditText.text.toString()
+        val pengguna = binding.userInp.text.toString()
         if (TextUtils.isEmpty(pengguna)){
             Toast.makeText(this, R.string.nama_invalid, Toast.LENGTH_LONG).show()
             return
         }
-        val berat = binding.dailyKgEditText.text.toString()
+        val berat = binding.dailyInp.text.toString()
         if (TextUtils.isEmpty(berat)) {
             Toast.makeText(this, R.string.berat_invalid, Toast.LENGTH_LONG).show()
             return
