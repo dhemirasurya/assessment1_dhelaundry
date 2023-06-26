@@ -3,7 +3,8 @@
     <string name="laundry_intro">Masukkan data sesuai dengan barang-barang yang akan anda laundry. Pastikan barang Daily Kiloan yang akan ditimbang dalam keadaan kering.</string>
     <string name="user_name">Nama Anda</string>
     <string name="daily_kg">Jumlah Daily Kiloan (Kg)</string>
-    <string name="pelayanan_dailykg">Jenis Pelayanan</string>
+    <string name="harga_pelayanan">Masukan Harga</string>
+    <string name="pelayanan_dailykg">Jenis Pelayanan : -- Reguler (3 Hari) Rp.6.000,- /kg -- Express (6 Jam) Rp.10.000,- /kg -- Quick (4 Jam) Rp.15.000,- /kg -- Masukkan Sesuai Harga Yang Tertera</string>
     <string name="pilihan1">Reguler (3 Hari) Rp.6.000,- /kg</string>
     <string name="pilihan2">Express (6 Jam) Rp.10.000,- /kg</string>
     <string name="pilihan3">Quick (4 Jam) Rp.15.000,- /kg</string>
@@ -13,9 +14,25 @@
     <string name="enam_jam">6 Jam</string>
     <string name="empat_jam">4 Jam</string>
     <string name="nama_x"> Laundry atas nama %1$s</string>
-    <string name="waktu_x"> ,dapat diambil dalam renta waktu %1$s</string>
+    <string name="waktu_x">%1$s</string>
     <string name="nama_invalid">Nama tidak boleh kosong.</string>
     <string name="berat_invalid">Berat tidak boleh kosong.</string>
-    <string name="pelayanan_invalid">Pilih jenis pelayanan.</string>
+    <string name="jumlah_invalid">Masukkan harga pelayanan.</string>
+    <string name="judul_saran">Saran Sebelum Laundry</string>
+    <string name="saran_laundry">Pastikan pakaian dalam keadaan kering,
+        dan pisahkan dengan jenis pakaian yang mudah luntur </string>
+    <string name="lihat_saran">Lihat Saran</string>
+    <string name="tentang_aplikasi">Tentang Aplikasi</string>
+    <string name="copyright">Dhe Laundry merupakan aplikasi android yang membantu para pelanggan laundry untuk melakukan proses registrasi data, barang apa saja yang akan dilaundry. \n\nDimana aplikasi ini dapat mempermudah pelanggan selama melakukan proses intput data dan juga untuk mengetahui total harga dari barang yang dilaundry.</string>
+    <string name="bagikan">Bagikan</string>
+    <string name="bagikan_template">Berat Laundry: %1$s kg\n Jenis Pelayanan: %2$s cm\n%3$s\n\n%4$s</string>
+    <string name="belum_ada_data">Belum ada data</string>
+    <string name="histori">Histori</string>
+    <string name="hasil_x">Total Harga: Rp. %1$.2f - %2$s</string>
+    <string name="data_x">Berat: %1$.1f - Jenis: %2$.2f  </string>
+    <string name="hapus_histori">Hapus Histori</string>
+    <string name="konfirmasi_hapus">Hapus semua histori?</string>
+    <string name="hapus">Hapus</string>
+    <string name="batal">Batal</string>
 
 </resources>
