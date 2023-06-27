@@ -12,7 +12,7 @@ import androidx.lifecycle.asLiveData
 import androidx.navigation.findNavController
 import androidx.navigation.fragment.findNavController
 import org.d3if0006.asesment1.R
-import org.d3if0006.asesment1.data.SettingDataStore
+import org.d3if0006.asesment1.data.SettingsDataStore
 import org.d3if0006.asesment1.data.dataStore
 import org.d3if0006.asesment1.databinding.FragmentHitungBinding
 import org.d3if0006.asesment1.db.LaundryDb
@@ -21,8 +21,8 @@ import org.d3if0006.asesment1.ui.HitungViewModel
 
 class HitungFragment : Fragment() {
 
-    private val layoutDataStore: SettingDataStore by lazy {
-        SettingDataStore(requireContext().dataStore)
+    private val layoutDataStore: SettingsDataStore by lazy {
+        SettingsDataStore(requireContext().dataStore)
     }
 
     private lateinit var binding: FragmentHitungBinding
@@ -86,8 +86,13 @@ class HitungFragment : Fragment() {
 
             R.id.menu_about -> {
                 findNavController().navigate(
-                    R.id.action_hitungFragment_to_aboutFragment
-                )
+                    R.id.action_hitungFragment_to_aboutFragment)
+                return true
+            }
+
+            R.id.menu_interesting -> {
+                findNavController().navigate(
+                    R.id.action_hitungFragment_to_interestingFragment)
                 return true
             }
         }

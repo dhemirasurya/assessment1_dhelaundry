@@ -19,6 +19,9 @@
         <action
             android:id="@+id/action_hitungFragment_to_historiFragment"
             app:destination="@id/historiFragment" />
+        <action
+            android:id="@+id/action_hitungFragment_to_interestingFragment"
+            app:destination="@id/interestingFragment" />
     </fragment>
     <fragment
         android:id="@+id/saranFragment"
@@ -34,7 +37,11 @@
         android:name="org.d3if0006.asesment1.ui.histori.HistoriFragment"
         android:label="@string/histori"
         tools:layout="@layout/fragment_histori" />
-
+    <fragment
+        android:id="@+id/interestingFragment"
+        android:name="org.d3if0006.asesment1.ui.interesting.InterestingFragment"
+        android:label="@string/interesting"
+        tools:layout="@layout/fragment_interesting"/>
 
 
 </navigation>

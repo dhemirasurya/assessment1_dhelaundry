@@ -34,5 +34,14 @@
     <string name="konfirmasi_hapus">Hapus semua histori?</string>
     <string name="hapus">Hapus</string>
     <string name="batal">Batal</string>
+    <string name="message">%1$s diklik!</string>
+    <string name="interesting">Tentang Pakaian</string>
+    <string name="switch_layout">Ubah tampilan</string>
+    <string name="channel_name">Updater</string>
+    <string name="channel_desc">Update data pakaian otomatis</string>
+    <string name="notif_title">Ada Pakaian baru!</string>
+    <string name="notif_text">Cek sekarang biar nggak penasaran..</string>
+
+
 
 </resources>

@@ -16,7 +16,7 @@ val Context.dataStore: DataStore<Preferences> by preferencesDataStore(
     name = PREFERENCES_NAME
 )
 
-class SettingDataStore(prefDataStore: DataStore<Preferences>) {
+class SettingsDataStore(prefDataStore: DataStore<Preferences>) {
 
     private val IS_LINEAR_LAYOUT = booleanPreferencesKey("is_linear_layout")
     val preferenceFlow: Flow<Boolean> = prefDataStore.data
